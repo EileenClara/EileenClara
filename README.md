@@ -25,15 +25,18 @@ ARC by **1.23 pp** — then loses **18.6 pp** on a short-hot-set workload, becau
 
 ## Also
 
-**Retrieval-augmented systems, in production.**
-<!-- fill in: one sentence — what the system does, and one number that proves it works -->
+**[py-call-map](https://github.com/EileenClara/py-call-map)** — a VS Code extension that
+draws Python call graphs, Jupyter notebooks included. Built because tracing a 2000-line
+notebook by hand is a waste of an afternoon.
 
-**Multimodal fine-tuning.**
-<!-- fill in: one sentence — base model, task, and the metric that moved -->
+**[quantitative-trading](https://github.com/EileenClara/quantitative-trading)** — a browser
+trading panel over VeighNa: FastAPI + RPC backend, single-file dark dashboard, paper trading
+through SimNow and live CTP. The interesting part is not the UI, it is keeping an
+order-submission path honest when the broker connection drops.
 
-**Tooling.** [py-call-map](https://github.com/EileenClara/py-call-map) — a VS Code extension
-that draws Python call graphs, Jupyter notebooks included. Built because tracing a
-2000-line notebook by hand is a waste of an afternoon.
+<!-- add once each has a number attached:
+     - retrieval-augmented system in production (what it does + one metric)
+     - multimodal multi-task fine-tuning (base model, task, metric) -->
 
 ---
 
